@@ -1,1 +1,0 @@
-Heuristic Search Techniques
