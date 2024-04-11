@@ -21,7 +21,6 @@ class Feedforward(nn.Module):
 
 
 class TransformerBlock(nn.Module):
-
     def __init__(self, embed_size, heads, ff_hidden_size, dropout_rate):
         super(TransformerBlock, self).__init__()
         self.attention = MultiHeadAttention(embed_size, heads)
